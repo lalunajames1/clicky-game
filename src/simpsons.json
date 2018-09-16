@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Bart Simpsom",
+      "image": "./public/images/bart.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Comic Book Guy",
+      "image": "./public/images/comic-book-guy.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Nick",
+      "image": "./public/images/dr-nickj.peg"
+    },
+    {
+      "id": 4,
+      "name": "Fred Flanders",
+      "image": "./public/images/flanders.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Homer Simpson",
+      "image": "./public/images/homer.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Simpson",
+      "image": "./public/images/lisa.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Maggie Simpson",
+      "image": "./public/images/maggie.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Marge Simpson",
+      "image": "./public/images/marge.jpeg"
+
+    },
+    {
+      "id": 9,
+      "name": "Mayor",
+      "image": "./public/images/mayor.jpeg"
+
+    },
+    {
+      "id": 10,
+      "name": "Rocko"
+
+    },
+    {
+      "id": 11,
+      "name": "Moe",
+      "image": "./public/images/moe.jpeg"
+
+    },
+    {
+      "id": 12,
+      "name": "Mr. Burns",
+      "image": "./public/images/mr-burns.jpeg"
+
+    }
+  ]
+  
