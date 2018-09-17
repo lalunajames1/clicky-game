@@ -1,25 +1,74 @@
-import React from "react";
-import Board from "./components/board";
-import Footer from "./components/footer";
-import Images from "./components/images";
-
+import React, {Component} from "react";
+import Board from "./components/Board";
+//import Footer from "./components/Footer";
+import Images from "./components/Images";
+import Nav from "./components/Nav";
+import Wrapper from "./components/Wrapper";
 import simpsons from "./simpsons.json";
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+
+
+const App = () => {
+  this.state = {
+      currentID : -1,
+      topScore : 0,
+      currentScore : 0,
+      status : ''    
+
+    };
+  this.Click = (id)=> {
+    var currentScore = this.state.currentScore;
+    var topScore = this.state.topScore;
+    var status = '';
+    if (this.state.currentID === id) {
+      console.log("you lose ")
+      currentScore = 0;
+      status = 'Incorrect, game over!';
+    } else {
+      currentScore+=1;
+      if (currentScore > topScore){
+        topScore = currentScore;
+      }
+      status = "correct!";
+    }
+        this.setState({
+          currentID: id,
+          status: status,
+          currentScore: currentScore,
+          topScore: topScore
+        })
+    console.log("Img with id: " + id + " was clicked")
+   };
+
+  return(
+   <Wrapper>
+     <Nav
+       top = {this.state.topScore}
+       current = {this.state.currentScore}
+       message = {this.state.status}
+     />
+     <Board/> 
+     {
+       simpsons.map( (item) => (
+
+         <Images
+            key={item.id} 
+            id={item.id} 
+            name={item.name}
+            image={item.image}
+            click = {this.Click}
+        />
+       ))
+     }
+
+  
+     {/* <Footer/> */}
+   </Wrapper>
+  )
+    
   }
-}
+
+
 
 export default App;

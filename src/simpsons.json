@@ -1,66 +1,67 @@
 [
     {
       "id": 1,
-      "name": "Bart Simpsom",
-      "image": "./public/images/bart.jpeg"
+      "name": "Bart Simpson",
+      "image": "/images/bart.jpeg"
     },
     {
       "id": 2,
       "name": "Comic Book Guy",
-      "image": "./public/images/comic-book-guy.jpeg"
+      "image": "/images/comic-book-guy.jpeg"
     },
     {
       "id": 3,
       "name": "Dr. Nick",
-      "image": "./public/images/dr-nickj.peg"
+      "image": "/images/dr-nick.jpeg"
     },
     {
       "id": 4,
       "name": "Fred Flanders",
-      "image": "./public/images/flanders.jpeg"
+      "image": "/images/flanders.jpeg"
     },
     {
       "id": 5,
       "name": "Homer Simpson",
-      "image": "./public/images/homer.jpeg"
+      "image": "/images/homer.jpeg"
     },
     {
       "id": 6,
       "name": "Lisa Simpson",
-      "image": "./public/images/lisa.jpeg"
+      "image": "/images/lisa.jpeg"
     },
     {
       "id": 7,
       "name": "Maggie Simpson",
-      "image": "./public/images/maggie.jpeg"
+      "image": "/images/maggie.png"
     },
     {
       "id": 8,
       "name": "Marge Simpson",
-      "image": "./public/images/marge.jpeg"
+      "image": "/images/marge.png"
 
     },
     {
       "id": 9,
       "name": "Mayor",
-      "image": "./public/images/mayor.jpeg"
+      "image": "/images/mayor.jpeg"
 
     },
     {
       "id": 10,
-      "name": "Rocko"
+      "name": "Krusty",
+      "image": "/images/krusty.jpeg"
 
     },
     {
       "id": 11,
       "name": "Moe",
-      "image": "./public/images/moe.jpeg"
+      "image": "/images/moe.jpeg"
 
     },
     {
       "id": 12,
       "name": "Mr. Burns",
-      "image": "./public/images/mr-burns.jpeg"
+      "image": "/images/mr-burns.jpeg"
 
     }
   ]
